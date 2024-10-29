@@ -2,7 +2,7 @@ import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 import { API_URL } from '@/constants/env';
 import Image from 'next/image';
-import Slider from './slider'
+import Slider from './slider';
 import BookingModal from './bookingModal';
 import Header from '@/components/Header';
 import { Bath, BedDouble, CheckCheck, Ban, Grid2X2, HospitalIcon, MapPin, SchoolIcon, Shrub, Trees, Wifi, Shield } from 'lucide-react';
