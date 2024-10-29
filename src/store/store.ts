@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import propertyReducer from "../pages/slices/propertySlice";
+import propertyReducer from "../slices/propertySlice";
 import { PropertyState } from "./types"; // Adjust the path as necessary
 
 // Define RootState using the type from propertySlice
