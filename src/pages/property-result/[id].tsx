@@ -5,7 +5,7 @@ import Image from 'next/image';
 import BookingModal from './bookingModal';
 import Header from '@/components/Header';
 import { Bath, BedDouble, CheckCheck, Ban, Grid2X2, HospitalIcon, MapPin, SchoolIcon, Shrub, Trees, Wifi, Shield } from 'lucide-react';
-import Slider from './slider';
+import Slider from './Slider';
 
 const PropertyDetails: React.FC = () => {
     const router = useRouter();
@@ -243,3 +243,4 @@ const PropertyDetails: React.FC = () => {
 };
 
 export default PropertyDetails;
+
